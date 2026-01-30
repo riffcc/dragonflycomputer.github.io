@@ -1,0 +1,49 @@
+baseURL: "https://dragonfly.computer/"
+title: "Dragonfly"
+enableRobotsTXT: true
+enableGitInfo: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.146.0"
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+params:
+  description: "Infrastructure automation tools for the modern datacenter"
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  theme:
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: false
+
+menu:
+  main:
+    - name: Dragonfly
+      pageRef: /dragonfly
+      weight: 1
+    - name: Jetpack
+      pageRef: /jetpack
+      weight: 2
+    - name: GitHub
+      url: https://github.com/dragonflycomputer
+      weight: 3
