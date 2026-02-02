@@ -1,5 +1,6 @@
 baseURL: "https://dragonfly.computer/"
 title: "Dragonfly"
+copyright: "© Riff.CC. Licensed under AGPLv3."
 enableRobotsTXT: true
 enableGitInfo: true
 
