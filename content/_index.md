@@ -3,13 +3,13 @@ title: Dragonfly
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge link="https://github.com/dragonflycomputer" >}}
+{{< hextra/hero-badge link="https://github.com/riffcc" >}}
   <span>Open Source</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 {{< hextra/hero-headline >}}
-  Infrastructure That&nbsp;<br class="hx:sm:block hx:hidden" />Just Works
+  Metal, Managed.
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}

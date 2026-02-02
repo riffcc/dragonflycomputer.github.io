@@ -45,5 +45,5 @@ menu:
       pageRef: /jetpack
       weight: 2
     - name: GitHub
-      url: https://github.com/dragonflycomputer
+      url: https://github.com/riffcc
       weight: 3

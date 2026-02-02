@@ -16,3 +16,7 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# AI cruft
+.claude
+.playwright-mcp
