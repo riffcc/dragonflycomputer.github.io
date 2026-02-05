@@ -3,6 +3,7 @@ title: Mage
 cascade:
   type: docs
 weight: 2
+draft: true
 sidebar:
     open: true
 ---
