@@ -1,3 +1,29 @@
+---
+params:
+  description: 'Dragonfly is a metal management system for modern computing.'
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    width: wide
+  page:
+    width: full  # or "full" for maximum width
+
+  theme:
+    default: system
+    displayToggle: true
+
+  customCss:
+    - css/custom.css
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: false
+
+
 baseURL: "https://dragonfly.computer/"
 title: "Dragonfly"
 copyright: "© Riff.CC. Licensed under AGPLv3."
@@ -18,33 +44,33 @@ markup:
   highlight:
     noClasses: false
 
-params:
-  description: "Infrastructure automation tools for the modern datacenter"
-
-  navbar:
-    displayTitle: true
-    displayLogo: false
-
-  theme:
-    default: system
-    displayToggle: true
-
-  footer:
-    enable: true
-    displayCopyright: true
-    displayPoweredBy: false
-
-  editURL:
-    enable: false
-
 menu:
   main:
-    - name: Dragonfly
-      pageRef: /dragonfly
+    - name: Home
+      pageRef: /
       weight: 1
-    - name: Jetpack
-      pageRef: /jetpack
+    - name: Docs
+      pageRef: /docs
       weight: 2
-    - name: GitHub
-      url: https://github.com/riffcc
+    - name: About
+      pageRef: /about
       weight: 3
+    - name: Pricing
+      pageRef: /pricing
+      weight: 4
+    - name: Search
+      weight: 6
+      params:
+        type: search
+    - name: GitHub
+      url: https://github.com/riffcc/dragonfly
+      weight: 7
+      params:
+        icon: github
+
+languageCode: 'en-gb'
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Dragonfly
