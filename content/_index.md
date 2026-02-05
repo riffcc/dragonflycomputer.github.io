@@ -11,12 +11,12 @@ metal, managed.
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
-Automatic discovery and installation for all your servers, made easy. Works on the cloud, on-premises, and at the edge.
+Automatic discovery and installation for all your servers.
 {{< /hextra/hero-subtitle >}}
 
 <div class="hx:mt-6 hx:mb-6 hx:flex hx:gap-3">
-{{< hextra/hero-button text="Get Started" link="dragonfly" >}}
-{{< hextra/hero-button text="Learn About Jetpack" link="jetpack" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);" >}}
+{{< hextra/hero-button text="Get Started" link="/docs/installation/" >}}
+{{< hextra/hero-button text="Learn About Jetpack" link="/docs/introduction/dragonfly/" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);" >}}
 </div>
 
   </div>
