@@ -14,3 +14,5 @@ Helm charts will be available in the Dragonfly Helm repository, Kustomize overla
 # Prerequisites
 - Kubernetes version >= 1.21
 - Helm version >= 3.0.0
+
+Further details are coming soon (Dragonfly v0.2.0)

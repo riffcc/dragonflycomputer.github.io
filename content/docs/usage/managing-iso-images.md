@@ -8,13 +8,9 @@ sidebar:
 ---
 Dragonfly allows you to boot ISO images over the network. This is useful for deploying operating systems that are not available in Dragonfly's included templates.
 
-Pre-requisites:
-- ISO image file [uploaded to Dragonfly](/docs/managing-iso-images/)
-- Network connectivity
-
 {{% steps %}}
 
-### Select Network Boot
+### Open Dragonfly
 Navigate to your Dragonfly dashboard and go to the Settings page, then select the "ISO Images" option.
 
 <img src="/images/screenshots/iso-manage.png" alt="Manage ISO images in the settings panel" style="width: 75%;" />

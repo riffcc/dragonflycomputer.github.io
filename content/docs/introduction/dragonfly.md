@@ -15,7 +15,7 @@ You can use Dragonfly to install and manage Linux, as well as remotely reinstall
 
 {{< cards >}}
   {{< card link="/docs/usage/deploying-with-dragonfly" title="Deploy Linux in under 90 seconds" subtitle="Dragonfly deploys - fast. Bring up a machine all the way to SSH in 90 seconds or less."icon="hard-drive-download" >}}
-  {{< card link="update" title="Apply updates across your fleet" subtitle="Keep your fleet up to date with automatic updates and security patches (coming soon)." icon="shield-check" >}}
+  {{< card link="/docs/usage-jetpack/apply-updates" title="Apply updates across your fleet" subtitle="Keep your fleet up to date with automatic updates and security patches (coming soon)." icon="shield-check" >}}
   {{< card link="production deployment" title="Perform maintenance tasks" subtitle="Remotely reinstall, wipe, diagnose, and repair - even on machines lacking IPMI/BMC devices." icon="hammer" >}}
   {{< card link="production deployment" title="Boot to ISO" subtitle="Remotely reinstall, wipe, diagnose, and repair - even on machines lacking IPMI/BMC devices." icon="disc-2" >}}
   {{< card link="production deployment" title="Manage from anywhere" subtitle="Designed for secure management from anywhere, Dragonfly gives you freedom and flexibility." icon="globe" >}}
