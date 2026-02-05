@@ -24,7 +24,19 @@ Spark makes it easy to maintain machines remotely or locally.
 
   Press 2 to enter the Advanced menu.
 
+  ### Choose an action
+  Select an action to perform on the machine.
+  
+  <img src="/images/screenshots/spark-advanced.png" alt="Manage ISO images in the settings panel" style="width: 75%;" />
+  
+  The following options are available at this time:
+  * Install OS - Install an operating system from an available template
+  * Memory Test - Launch memtest86+ to test your machine's memory
+  * Boot Rescue Environment (Alpine) - Reboot into an Alpine Linux root shell/rescue environment
+  * Remove from Dragonfly - Prevents a machine from being managed by Dragonfly
+
+  ### 
 
 {{% /steps %}}
 
-You can also deploy operating systems to a single machine by following the same steps but only selecting one machine.
+Future improvements to Dragonfly will allow you to trigger these actions remotely.

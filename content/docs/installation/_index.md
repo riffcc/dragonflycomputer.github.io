@@ -36,4 +36,6 @@ As soon as Dragonfly is up and running, you can use it to manage your computers.
 
 The Spark agent allows you to perform basic maintenance tasks remotely or locally.
 
+Enable PXE/Network booting on each computer you want to manage with Spark.
+
 {{% /steps %}}

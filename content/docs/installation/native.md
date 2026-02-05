@@ -7,7 +7,7 @@ sidebar:
     open: true
 next: /docs/installation/production-setup/
 ---
-Download the latest binary from the [releases page](https://github.com/dragonflycomputer/dragonfly/releases).
+Download the latest binary from the [releases page](https://github.com/riffcc/dragonfly/releases).
 
 You'll want the version for your computer.
 
@@ -16,7 +16,7 @@ You'll want the version for your computer.
   {{< tab >}}
   Download Dragonfly from the [releases page](https://github.com/riffcc/dragonfly/releases).
   ```
-  wget -O dragonfly https://github.com/dragonflycomputer/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-linux-amd64
+  wget -O dragonfly https://github.com/riffcc/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-linux-amd64
   ```
   
   Copy the binary to /usr/local/bin/dragonfly and make it executable:
@@ -37,7 +37,7 @@ You'll want the version for your computer.
   {{< tab >}}
   Download Dragonfly from the [releases page](https://github.com/riffcc/dragonfly/releases).
   ```
-  wget -O dragonfly https://github.com/dragonflycomputer/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-darwin-amd64
+  wget -O dragonfly https://github.com/riffcc/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-darwin-amd64
   ```
   
   Copy the binary to /usr/local/bin/dragonfly and make it executable:

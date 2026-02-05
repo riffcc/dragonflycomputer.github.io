@@ -31,13 +31,13 @@ Edit it to your needs, then run
 docker-compose up -d
 ```
 
-Visit the web interface at http://localhost:3000
+Visit the web interface at `http://localhost:3000`
 (or `http://your-hostname:3000` if you're not running it locally)
 
-For more details on running Dragonfly with Docker, see the [Docker guide](/docs/docker).
+For more details on running Dragonfly with Docker, see the [Docker guide](/docs/installation/docker).
 
 ### Binary Installation
-Download the latest binary from the [releases page](https://github.com/dragonflycomputer/dragonfly/releases).
+Download the latest binary from the [releases page](https://github.com/riffcc/dragonfly/releases).
 
 You'll want the version for your computer.
 
@@ -46,7 +46,7 @@ You'll want the version for your computer.
   {{< tab >}}
   Download Dragonfly from the [releases page](https://github.com/riffcc/dragonfly/releases).
   ```
-  wget -O dragonfly https://github.com/dragonflycomputer/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-linux-amd64
+  wget -O dragonfly https://github.com/riffcc/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-linux-amd64
   ```
   
   Copy the binary to /usr/local/bin/dragonfly and make it executable:
@@ -65,9 +65,12 @@ You'll want the version for your computer.
   {{< /tab >}}
   <!-- macOS -->
   {{< tab >}}
+  macOS installation relies on installing Dragonfly as a native binary. 
+  Future releases will include Homebrew support.
+  
   Download Dragonfly from the [releases page](https://github.com/riffcc/dragonfly/releases).
   ```
-  wget -O dragonfly https://github.com/dragonflycomputer/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-darwin-amd64
+  wget -O dragonfly https://github.com/riffcc/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-darwin-amd64
   ```
   
   Copy the binary to /usr/local/bin/dragonfly and make it executable:

@@ -15,10 +15,10 @@ It combines functionality seen in tools such as Ansible and Terraform, providing
 Jetpack is based on the Jetporch project by Jetporch contributors including Michael DeHaan.
 
 {{< cards >}}
-  {{< card link="powerful" title="Powerful and flexible" subtitle="Jetpack comes with all of the scripting capabilities you expect, including some you might not." icon="biceps-flexed" >}}
-  {{< card link="update" title="AI Native" subtitle="Built-in optional AI capabilities and integrations allow you to automate and optimize your infrastructure." icon="bot" >}}
+  {{< card link="about:blank" title="Powerful and flexible" subtitle="Jetpack comes with all of the scripting capabilities you expect, including some you might not." icon="biceps-flexed" >}}
+  {{< card link="about:blank" title="AI Native" subtitle="Built-in optional AI capabilities and integrations allow you to automate and optimize your infrastructure." icon="bot" >}}
   {{< card link="https://github.com/riffcc/jetpack" title="Open source" subtitle="Jetpack is open source and licensed under the GNU GPLv3." icon="copyleft" >}}
-  {{< card link="production deployment" title="Instantiate" subtitle="Need to deploy a database cluster? Jetpack will create the necessary infrastructure for you." icon="bow-arrow" >}}
-  {{< card link="production deployment" title="Rollback (coming soon)" subtitle="Undo rollouts and changes quickly." icon="undo-dot" >}}
-  {{< card link="production deployment" title="Fast" subtitle="Built for speed and scale, Jetpack is designed to handle large-scale deployments quickly and efficiently." icon="rabbit" >}}
+  {{< card link="about:blank" title="Instantiate" subtitle="Need to deploy a database cluster? Jetpack will create the necessary infrastructure for you." icon="bow-arrow" >}}
+  {{< card link="about:blank" title="Rollback (coming soon)" subtitle="Undo rollouts and changes quickly." icon="undo-dot" >}}
+  {{< card link="about:blank" title="Fast" subtitle="Built for speed and scale, Jetpack is designed to handle large-scale deployments quickly and efficiently." icon="rabbit" >}}
 {{< /cards >}}
