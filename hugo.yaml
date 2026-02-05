@@ -1,12 +1,12 @@
 ---
 params:
-  description: 'Dragonfly is a metal management system for modern computing.'
+  description: "Dragonfly is a metal management system for modern computing."
   navbar:
     displayTitle: true
     displayLogo: false
     width: wide
   page:
-    width: full  # or "full" for maximum width
+    width: full # or "full" for maximum width
 
   theme:
     default: system
@@ -22,7 +22,6 @@ params:
 
   editURL:
     enable: false
-
 
 baseURL: "https://dragonfly.computer/"
 title: "Dragonfly"
@@ -53,7 +52,7 @@ menu:
       pageRef: /docs
       weight: 2
     - name: About
-      pageRef: /about
+      pageRef: /docs/introduction/dragonfly/
       weight: 3
     - name: Pricing
       pageRef: /pricing
@@ -68,7 +67,7 @@ menu:
       params:
         icon: github
 
-languageCode: 'en-gb'
+languageCode: "en-gb"
 languages:
   en:
     languageName: English
