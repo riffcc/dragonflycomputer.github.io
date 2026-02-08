@@ -28,32 +28,32 @@ Automatic discovery and installation for all your servers.
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Deploy Linux in under 90 seconds"
-    subtitle="Bring up a machine all the way to SSH in 90 seconds or less. No USB drives, no console access needed."
+    title="Deploy Linux in under 60 seconds"
+    subtitle="Bring up a machine all the way to SSH in 60 seconds or less. No USB drives, no console access needed."
     link="/docs/usage/deploying-with-dragonfly"
     icon="hard-drive-download"
   >}}
   {{< hextra/feature-card
-    title="Automatic discovery"
+    title="Network boot a machine"
     subtitle="Power on a machine and Dragonfly finds it. PXE boot, hardware detection, and registration happen automatically."
     link="/docs/introduction/dragonfly"
     icon="lightning-bolt"
   >}}
   {{< hextra/feature-card
     title="Remote maintenance"
-    subtitle="Reinstall, wipe, diagnose, and repair remotely — even on machines without IPMI or BMC devices."
+    subtitle="Reinstall, wipe, diagnose, and repair remotely, even on machines without IPMI or BMC devices."
     link="/docs/usage/perform-maintenance/"
     icon="hammer"
   >}}
   {{< hextra/feature-card
-    title="Rich power controls"
-    subtitle="Integrates with IPMI, Redfish, Wake-on-LAN, and Proxmox — with Home Assistant support coming soon."
+    title="Proxmox integration"
+    subtitle="Manage Proxmox VMs alongside bare metal. IPMI, Redfish, and Wake-on-LAN support coming soon."
     link="/docs/introduction/dragonfly"
     icon="power"
   >}}
   {{< hextra/feature-card
     title="Coexists with your infrastructure"
-    subtitle="Works alongside existing DHCP servers. No need to rip and replace — just plug Dragonfly in."
+    subtitle="Works alongside existing DHCP servers. No need to rip and replace, just plug Dragonfly in."
     link="/docs/introduction/dragonfly"
     icon="handshake"
   >}}
