@@ -14,9 +14,9 @@ metal, managed.
 Automatic discovery and installation for all your servers.
 {{< /hextra/hero-subtitle >}}
 
-<div class="hx:mt-6 hx:mb-6 hx:flex hx:gap-3">
-{{< hextra/hero-button text="Get Started" link="/docs/installation/" >}}
-{{< hextra/hero-button text="Learn About Jetpack" link="/docs/introduction/dragonfly/" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);" >}}
+<div class="hx:mt-8 hx:mb-8 hx:flex hx:flex-col hx:sm:flex-row hx:gap-4">
+  <a href="/docs/installation/" class="dragonfly-btn dragonfly-btn-primary">Try Dragonfly</a>
+  <a href="/docs/introduction/dragonfly/" class="dragonfly-btn dragonfly-btn-secondary">Learn More</a>
 </div>
 
   </div>
@@ -28,20 +28,39 @@ Automatic discovery and installation for all your servers.
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Dragonfly"
-    subtitle="Bare metal provisioning and PXE boot management. Deploy operating systems across your infrastructure with ease."
-    link="dragonfly"
-    icon="server"
+    title="Deploy Linux in under 90 seconds"
+    subtitle="Bring up a machine all the way to SSH in 90 seconds or less. No USB drives, no console access needed."
+    link="/docs/usage/deploying-with-dragonfly"
+    icon="hard-drive-download"
   >}}
   {{< hextra/feature-card
-    title="Jetpack"
-    subtitle="Next-generation configuration management. A modern approach to infrastructure automation that learns from Ansible's lessons."
-    link="jetpack"
-    icon="chip"
+    title="Automatic discovery"
+    subtitle="Power on a machine and Dragonfly finds it. PXE boot, hardware detection, and registration happen automatically."
+    link="/docs/introduction/dragonfly"
+    icon="lightning-bolt"
   >}}
   {{< hextra/feature-card
-    title="Open Source"
-    subtitle="Built in the open. All Dragonfly tools are free and open source, designed for transparency and community contribution."
+    title="Remote maintenance"
+    subtitle="Reinstall, wipe, diagnose, and repair remotely — even on machines without IPMI or BMC devices."
+    link="/docs/usage/perform-maintenance/"
+    icon="hammer"
+  >}}
+  {{< hextra/feature-card
+    title="Rich power controls"
+    subtitle="Integrates with IPMI, Redfish, Wake-on-LAN, and Proxmox — with Home Assistant support coming soon."
+    link="/docs/introduction/dragonfly"
+    icon="power"
+  >}}
+  {{< hextra/feature-card
+    title="Coexists with your infrastructure"
+    subtitle="Works alongside existing DHCP servers. No need to rip and replace — just plug Dragonfly in."
+    link="/docs/introduction/dragonfly"
+    icon="handshake"
+  >}}
+  {{< hextra/feature-card
+    title="Open source"
+    subtitle="Built in the open under AGPLv3. Free to use, free to modify, designed for transparency and community."
+    link="https://github.com/riffcc/dragonfly"
     icon="code"
   >}}
 {{< /hextra/feature-grid >}}
