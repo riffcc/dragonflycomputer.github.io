@@ -3,8 +3,8 @@ title: Dragonfly
 layout: hextra-home
 ---
 
-<div style="display: flex; flex-direction: row; gap: 3rem; align-items: center; flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 400px;">
+<div style="display: flex; flex-direction: row; gap: 3rem; align-items: center; flex-wrap: wrap; max-width: 1200px; margin: 0 auto;">
+  <div style="flex: 1; min-width: 400px; max-width: 600px;">
 
 {{< hextra/hero-headline >}}
 metal, managed.
