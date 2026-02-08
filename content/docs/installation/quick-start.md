@@ -14,21 +14,25 @@ For Linux installations, we suggest using Debian or Ubuntu or running the Docker
 You can run Dragonfly using Docker Compose:
 
 Save this file as `docker-compose.yml`:
-```
+```yaml
 services:
   dragonfly:
-    image: riffcc/dragonfly:v0.1.0-alpha1
-    volumes:
-      - config:/var/lib/dragonfly
+    image: ghcr.io/riffcc/dragonfly:latest
+    restart: unless-stopped
     ports:
-      - "3000:3000" # Main web interface
-      - "67:67" # DHCP stapling service
-      - "69:69" # TFTP service
+      - "3000:3000"
+    volumes:
+      - dragonfly-data:/var/lib/dragonfly
+    environment:
+      - RUST_LOG=info
+
+volumes:
+  dragonfly-data:
 ```
 
-Edit it to your needs, then run
-```
-docker-compose up -d
+Then run:
+```bash
+docker compose up -d
 ```
 
 Visit the web interface at `http://localhost:3000`
@@ -36,7 +40,7 @@ Visit the web interface at `http://localhost:3000`
 
 For more details on running Dragonfly with Docker, see the [Docker guide](/docs/installation/docker).
 
-### Binary Installation
+### Native Installation
 Download the latest binary from the [releases page](https://github.com/riffcc/dragonfly/releases).
 
 You'll want the version for your computer.
@@ -46,54 +50,54 @@ You'll want the version for your computer.
   {{< tab >}}
   Download Dragonfly from the [releases page](https://github.com/riffcc/dragonfly/releases).
   ```
-  wget -O dragonfly https://github.com/riffcc/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-linux-amd64
+  wget -O dragonfly https://github.com/riffcc/dragonfly/releases/latest/download/dragonfly-linux-amd64
   ```
-  
+
   Copy the binary to /usr/local/bin/dragonfly and make it executable:
   ```
   sudo cp dragonfly /usr/local/bin/dragonfly
   sudo chmod +x /usr/local/bin/dragonfly
   ```
-  
+
   Install Dragonfly:
   ```
   sudo dragonfly install
   ```
-  
+
   You can now visit the web interface on port 3000 `http://<machine-ip-address>:3000`
 
   {{< /tab >}}
   <!-- macOS -->
   {{< tab >}}
-  macOS installation relies on installing Dragonfly as a native binary. 
+  macOS installation relies on installing Dragonfly as a native binary.
   Future releases will include Homebrew support.
-  
+
   Download Dragonfly from the [releases page](https://github.com/riffcc/dragonfly/releases).
   ```
-  wget -O dragonfly https://github.com/riffcc/dragonfly/releases/download/v0.1.0-alpha1/dragonfly-darwin-amd64
+  wget -O dragonfly https://github.com/riffcc/dragonfly/releases/latest/download/dragonfly-macos-arm64
   ```
-  
+
   Copy the binary to /usr/local/bin/dragonfly and make it executable:
   ```
   sudo cp dragonfly /usr/local/bin/dragonfly
   sudo chmod +x /usr/local/bin/dragonfly
   ```
-  
+
   Install Dragonfly:
   ```
   sudo dragonfly install
   ```
-  
+
   You can now visit the web interface on port 3000 `http://<machine-ip-address>:3000`
 
   {{< /tab >}}
-  
+
   <!--Windows -->
   {{< tab >}}
   Installation on Windows is not currently supported, and support is not planned at this time.
-  
+
   However, you may be able to get Dragonfly running via WSL2 (Windows Subsystem for Linux).
-  
+
   If this is a strong need, please contact us at support@dragonflycomputer.com!
   {{< /tab >}}
 
